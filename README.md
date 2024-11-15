@@ -2,9 +2,9 @@
 <p>SharePoint is a browser-based collaborative content management platform developed by Microsoft.</p>
 <p>Where,</p>
 <ul>
-    <li><strong>Content Management</strong>means, The process of sharing and managing information, such as files, images, and videos, in an organized manner.</li>
-    <li><strong>Collaborative</strong>means, Multiple people can work together by sharing and editing content seamlessly.</li>
-    <li><strong>Browser-Based</strong>means, There is no need to install additional software to use SharePoint. It can be accessed easily using browsers like Chrome, Safari, or Edge.</li>
+    <li><strong>Content Management</strong> means, The process of sharing and managing information, such as files, images, and videos, in an organized manner.</li>
+    <li><strong>Collaborative</strong> means, Multiple people can work together by sharing and editing content seamlessly.</li>
+    <li><strong>Browser-Based</strong> means, There is no need to install additional software to use SharePoint. It can be accessed easily using browsers like Chrome, Safari, or Edge.</li>
 </ul>
 <p>Simply, it is a platform to share and manage information, such as files, images, and videos in an organized way, so that multiple people can work together by sharing this information over the web using browsers like Chrome or Safari.</p>
 
