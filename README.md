@@ -194,86 +194,90 @@
 
 
 <h3>Examples For Practice :</h3>
-<p>Here are some more complex SharePoint structure examples, incorporating Document Libraries, Folders, and Lists:</p>
+<p><strong>Company Document Management System Structure for "Contoso Ltd."</strong></p>
 
 <ol>
-    <li><strong>Global Enterprise with Regional Offices (Expanded)</strong>
+    <li>
+        <p><strong>SharePoint Instance/Office 365</strong></p>
         <ul>
-            <li><strong>SharePoint Instance/Office 365</strong>
-                <ul>
-                    <li><strong>Site Collection:</strong> Global Headquarters
-                        <ul>
-                            <li><strong>Site:</strong> Executive Leadership
-                                <ul>
-                                    <li><strong>Document Library:</strong> Executive Documents</li>
-                                    <li><strong>List:</strong> Executive Meeting Minutes</li>
-                                </ul>
-                            </li>
-                            <li><strong>Site:</strong> Global HR
-                                <ul>
-                                    <li><strong>Document Library:</strong> HR Policies and Procedures</li>
-                                    <li><strong>List:</strong> Employee Records</li>
-                                </ul>
-                            </li>
-                            <li><strong>Site:</strong> Global Finance
-                                <ul>
-                                    <li><strong>Document Library:</strong> Financial Reports</li>
-                                    <li><strong>List:</strong> Expense Reports</li>
-                                </ul>
-                            </li>
-                            <li><strong>Site:</strong> Global IT
-                                <ul>
-                                    <li><strong>Document Library:</strong> IT Standards and Guidelines</li>
-                                    <li><strong>List:</strong> IT Incident Tickets</li>
-                                </ul>
-                            </li>
-                            <li><strong>Site:</strong> Global Marketing
-                                <ul>
-                                    <li><strong>Document Library:</strong> Marketing Materials</li>
-                                    <li><strong>List:</strong> Marketing Campaign Calendar</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><strong>Site Collection:</strong> Regional Office - Americas
-                        <ul>
-                            <li><strong>Site:</strong> Americas HR
-                                <ul>
-                                    <li><strong>Document Library:</strong> Regional HR Policies</li>
-                                    <li><strong>List:</strong> Employee Records (Americas)</li>
-                                </ul>
-                            </li>
-                            <li><strong>Site:</strong> Americas Finance
-                                <ul>
-                                    <li><strong>Document Library:</strong> Regional Financial Reports</li>
-                                    <li><strong>List:</strong> Expense Reports (Americas)</li>
-                                </ul>
-                            </li>
-                            <li><strong>Site:</strong> Americas IT
-                                <ul>
-                                    <li><strong>Document Library:</strong> Regional IT Standards</li>
-                                    <li><strong>List:</strong> IT Incident Tickets (Americas)</li>
-                                </ul>
-                            </li>
-                            <li><strong>Site:</strong> Americas Marketing
-                                <ul>
-                                    <li><strong>Document Library:</strong> Regional Marketing Materials</li>
-                                    <li><strong>List:</strong> Marketing Campaign Calendar (Americas)</li>
-                                </ul>
-                            </li>
-                            <li><strong>Site:</strong> Americas Sales
-                                <ul>
-                                    <li><strong>Document Library:</strong> Sales Proposals</li>
-                                    <li><strong>List:</strong> Sales Pipeline</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    </ul>
-            </li>
+            <li>Top-level entry point for the company’s SharePoint.</li>
+            <li><strong>URL Example</strong>: <a href="https://contoso.sharepoint.com">https://contoso.sharepoint.com</a></li>
+            <li>All site collections, departments, and resources will branch out from here.</li>
         </ul>
     </li>
-
-    </ol>
-
-<p>Remember that these are just examples, and the actual structure of a SharePoint environment will depend on the specific needs of your organization. Consider factors like user needs, security, and scalability when designing your SharePoint structure.</p>
+    <li>
+        <p><strong>Site Collections</strong> (Major areas for company divisions or purposes)</p>
+        <ul>
+            <li>Two main site collections are created to represent the primary divisions:</li>
+            <ol>
+                <li><strong>HR Division</strong>: <a href="https://contoso.sharepoint.com/sites/HR">https://contoso.sharepoint.com/sites/HR</a></li>
+                <li><strong>Finance Division</strong>: <a href="https://contoso.sharepoint.com/sites/Finance">https://contoso.sharepoint.com/sites/Finance</a></li>
+            </ol>
+        </ul>
+    </li>
+    <li>
+        <p><strong>Sites</strong> (Sub-divisions or projects within each division)</p>
+        <ul>
+            <li><strong>HR Site Collection</strong>:</li>
+            <ol>
+                <li><strong>Employee Policies</strong>: <a href="https://contoso.sharepoint.com/sites/HR/Policies">https://contoso.sharepoint.com/sites/HR/Policies</a></li>
+                <li><strong>Recruitment</strong>: <a href="https://contoso.sharepoint.com/sites/HR/Recruitment">https://contoso.sharepoint.com/sites/HR/Recruitment</a></li>
+                <li><strong>Training</strong>: <a href="https://contoso.sharepoint.com/sites/HR/Training">https://contoso.sharepoint.com/sites/HR/Training</a></li>
+            </ol>
+            <li><strong>Finance Site Collection</strong>:</li>
+            <ol>
+                <li><strong>Accounts Payable</strong>: <a href="https://contoso.sharepoint.com/sites/Finance/AP">https://contoso.sharepoint.com/sites/Finance/AP</a></li>
+                <li><strong>Accounts Receivable</strong>: <a href="https://contoso.sharepoint.com/sites/Finance/AR">https://contoso.sharepoint.com/sites/Finance/AR</a></li>
+                <li><strong>Financial Reports</strong>: <a href="https://contoso.sharepoint.com/sites/Finance/Reports">https://contoso.sharepoint.com/sites/Finance/Reports</a></li>
+            </ol>
+        </ul>
+    </li>
+    <li>
+        <p><strong>Libraries</strong> (Document libraries for storing files)</p>
+        <ul>
+            <li><strong>HR Division</strong>:</li>
+            <ol>
+                <li><strong>Employee Handbook</strong>: <a href="https://contoso.sharepoint.com/sites/HR/Policies/Handbook">https://contoso.sharepoint.com/sites/HR/Policies/Handbook</a></li>
+                <li><strong>Training Materials</strong>: <a href="https://contoso.sharepoint.com/sites/HR/Training/Materials">https://contoso.sharepoint.com/sites/HR/Training/Materials</a></li>
+                <li><strong>Interview Questions</strong>: <a href="https://contoso.sharepoint.com/sites/HR/Recruitment/Questions">https://contoso.sharepoint.com/sites/HR/Recruitment/Questions</a></li>
+            </ol>
+            <li><strong>Finance Division</strong>:</li>
+            <ol>
+                <li><strong>Invoices</strong>: <a href="https://contoso.sharepoint.com/sites/Finance/AP/Invoices">https://contoso.sharepoint.com/sites/Finance/AP/Invoices</a></li>
+                <li><strong>Expense Reports</strong>: <a href="https://contoso.sharepoint.com/sites/Finance/AR/Reports">https://contoso.sharepoint.com/sites/Finance/AR/Reports</a></li>
+                <li><strong>Annual Financials</strong>: <a href="https://contoso.sharepoint.com/sites/Finance/Reports/Annual">https://contoso.sharepoint.com/sites/Finance/Reports/Annual</a></li>
+            </ol>
+        </ul>
+    </li>
+    <li>
+        <p><strong>Folders</strong> (Sub-categories under each library for better organization)</p>
+        <ul>
+            <li><strong>HR Division</strong>:</li>
+            <ol>
+                <li>In <strong>Employee Handbook</strong>:</li>
+                <ul>
+                    <li><strong>General Policies</strong>: <a href="https://contoso.sharepoint.com/sites/HR/Policies/Handbook/General">https://contoso.sharepoint.com/sites/HR/Policies/Handbook/General</a></li>
+                    <li><strong>Safety Guidelines</strong>: <a href="https://contoso.sharepoint.com/sites/HR/Policies/Handbook/Safety">https://contoso.sharepoint.com/sites/HR/Policies/Handbook/Safety</a></li>
+                </ul>
+                <li>In <strong>Training Materials</strong>:</li>
+                <ul>
+                    <li><strong>Online Courses</strong>: <a href="https://contoso.sharepoint.com/sites/HR/Training/Materials/OnlineCourses">https://contoso.sharepoint.com/sites/HR/Training/Materials/OnlineCourses</a></li>
+                    <li><strong>Classroom Training</strong>: <a href="https://contoso.sharepoint.com/sites/HR/Training/Materials/Classroom">https://contoso.sharepoint.com/sites/HR/Training/Materials/Classroom</a></li>
+                </ul>
+            </ol>
+            <li><strong>Finance Division</strong>:</li>
+            <ol>
+                <li>In <strong>Invoices</strong>:</li>
+                <ul>
+                    <li><strong>2024 Invoices</strong>: <a href="https://contoso.sharepoint.com/sites/Finance/AP/Invoices/2024">https://contoso.sharepoint.com/sites/Finance/AP/Invoices/2024</a></li>
+                    <li><strong>2023 Invoices</strong>: <a href="https://contoso.sharepoint.com/sites/Finance/AP/Invoices/2023">https://contoso.sharepoint.com/sites/Finance/AP/Invoices/2023</a></li>
+                </ul>
+                <li>In <strong>Annual Financials</strong>:</li>
+                <ul>
+                    <li><strong>Q1 Reports</strong>: <a href="https://contoso.sharepoint.com/sites/Finance/Reports/Annual/Q1">https://contoso.sharepoint.com/sites/Finance/Reports/Annual/Q1</a></li>
+                    <li><strong>Q2 Reports</strong>: <a href="https://contoso.sharepoint.com/sites/Finance/Reports/Annual/Q2">https://contoso.sharepoint.com/sites/Finance/Reports/Annual/Q2</a></li>
+                </ul>
+            </ol>
+        </ul>
+    </li>
+</ol>
